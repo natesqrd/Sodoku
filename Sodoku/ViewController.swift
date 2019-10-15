@@ -10,11 +10,18 @@ import UIKit
 
 class ViewController: UIViewController {
 
+   
+
+
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
 
 
+    //MARK: - performSegue Method
+    @IBAction func levelButtonPressed(_ sender: UIButton) {
+        performSegue(withIdentifier: "toLevels", sender: self)
+    }
 }
 

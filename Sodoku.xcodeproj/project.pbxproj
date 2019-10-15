@@ -13,6 +13,7 @@
 		493B447F2354199F0020A14E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 493B447D2354199F0020A14E /* Main.storyboard */; };
 		493B4481235419AC0020A14E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 493B4480235419AC0020A14E /* Assets.xcassets */; };
 		493B4484235419AC0020A14E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 493B4482235419AC0020A14E /* LaunchScreen.storyboard */; };
+		493B448C235577D10020A14E /* LevelsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493B448B235577D10020A14E /* LevelsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		493B4480235419AC0020A14E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		493B4483235419AC0020A14E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		493B4485235419AC0020A14E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		493B448B235577D10020A14E /* LevelsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				493B44772354199F0020A14E /* AppDelegate.swift */,
 				493B44792354199F0020A14E /* SceneDelegate.swift */,
 				493B447B2354199F0020A14E /* ViewController.swift */,
+				493B448B235577D10020A14E /* LevelsTableViewController.swift */,
 				493B447D2354199F0020A14E /* Main.storyboard */,
 				493B4480235419AC0020A14E /* Assets.xcassets */,
 				493B4482235419AC0020A14E /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				493B448C235577D10020A14E /* LevelsTableViewController.swift in Sources */,
 				493B447C2354199F0020A14E /* ViewController.swift in Sources */,
 				493B44782354199F0020A14E /* AppDelegate.swift in Sources */,
 				493B447A2354199F0020A14E /* SceneDelegate.swift in Sources */,
